@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+    
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!-- <img src="" alt=""> -->
+          <h1>MY Portfolio</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>UI/UX Designer</p>
+          <h1>Hi, I am <span>JYOTI MISHRA </span> <br />from india.</h1>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <!-- <img
+              src="https://cdn.pixabay.com/photo/2017/09/21/19/06/woman-2773007__340.jpg"
+              alt=""
+            /> -->
+            <img src="images/pic.jpg" alt="">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              An enthusiastic fresher who is capable to use technical skills for
+              the betterment of the organization. Full Stack Developer course
+              has enhanced my proficiency in developing web applications and
+              looking forward to work in a competitive environment that enhances
+              overall learning.
+            </p>
+            <div class="tab-title">
+              <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-link" onclick="opentab('experience')">Experience</p>
+              <p class="tab-link" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-content active-tab" id='skills'>
+                <ul>
+                    <li><span>Java  </span> </li>
+                    <li><span>HTML </span> </li>
+                    <li><span>CSS  </span> </li>
+                    <li><span>JAVASCRIPT </span> </li>
+                    <li><span>REACT.JS </span> </li>
+                    
+                </ul>
+                
+            </div>
+
+            <div class="tab-content" id='experience' >
+                <ul>
+                    <li><span>March 2022 - current </span> <br> Full Stack Developer Trainee @Newton School</li>
+                    <li><span>April 2021-Jan 2022 </span> <br>Gate preparation</li>
+                    <li><span>Dec 2020-Feb 2021 </span> <br>InternShip From IIT Patna</li>
+                
+                </ul>
+            </div>
+
+            <div class="tab-content " id='education' >
+                <ul>
+                    <li><span>2017-2021 </span> <br> Btech (Computer Science And Engineering) - 87.2%</li>
+                    <li><span>2016 </span> <br>12th - 72.8%</li>
+                    <li><span>2014 </span> <br>10th - 9.6 cgpa</li>
+                
+                </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <div class="container">
+        <h1>My Projects</h1>
+        <div class="work-list">
+          <div class="contain">
+          <div class="work">
+            <img src="https://cdn.pixabay.com/photo/2018/05/16/18/08/e-commerce-3406613__340.jpg" alt="">
+            <div class="layer">
+              <h2>E-commerce Website</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti illum a esse asperiores iusto placeat, voluptate natus cupiditate praesentium unde consequuntur aliquid nostrum quae aliquam eius, odit, numquam repudiandae voluptatem?</p>
+            </div>
+
+            
+          </div>
+          <button><a href="https://ecommerce-website-ibkl-qedlxb94l-jyotimishra05.vercel.app/">LIVE-DEMO</a></button>
+          <button><a href="https://github.com/jyotimishra05/ecommerce-website">GITHUB-LINK</a></button>
+          </div>
+          <div class="contain">
+          <div class="work">
+            <img src="https://media.istockphoto.com/id/1223790224/photo/interface-of-video-distribution-service-subscription-service-streaming-video-communication.jpg?b=1&s=170667a&w=0&k=20&c=cw_PquQwc286_10ZpY-f3UKBO8ObvOGh7WK8pJQ7pfs=" alt="">
+            <div class="layer">
+              <h2>Movie-List-App</h2>
+              
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti illum a esse asperiores iusto placeat, voluptate natus cupiditate praesentium unde consequuntur aliquid nostrum quae aliquam eius, odit, numquam repudiandae voluptatem?</p>
+            
+          </div>
+         
+          </div>
+          <button><a href="https://movie-app-ohhc-d5j8pdyyd-jyotimishra05.vercel.app/">LIVE-DEMO</a></button>
+          <button><a href="https://github.com/jyotimishra05/movie-app">GITHUB-LINK</a></button>
+
+        </div>
+
+        <div class="contain">
+          <div class="work">
+            <img src="https://cdn.pixabay.com/photo/2018/11/26/07/46/question-3838906__340.jpg" alt="">
+            <div class="layer">
+              <h2>KBC(Millionaire App)</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti illum a esse asperiores iusto placeat, voluptate natus cupiditate praesentium unde consequuntur aliquid nostrum quae aliquam eius, odit, numquam repudiandae voluptatem?</p>
+            </div>
+          </div>
+          <!-- <div class="button-item"> -->
+            <button><a href="https://kbcquizz-game-7n2h-21dusfzxm-jyotimishra05.vercel.app/">LIVE-DEMO</a></button>
+            <button><a href="https://github.com/jyotimishra05/kbcquizz-game">GITHUB-LINK</a></button>
+          <!-- </div> -->
+         
+          </div>
+
+          <div class="contain">
+          <div class="work">
+            <img src="https://cdn.pixabay.com/photo/2016/10/02/16/38/love-quote-1709944__340.jpg" alt="">
+            <div class="layer">
+              <h2>Random-Quote-Generator</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti illum a esse asperiores iusto placeat, voluptate natus cupiditate praesentium unde consequuntur aliquid nostrum quae aliquam eius, odit, numquam repudiandae voluptatem?</p>
+            </div>
+          </div>
+          <button><a href="https://leafy-dasik-689531.netlify.app/">LIVE-DEMO</a></button>
+          <button><a href="https://github.com/jyotimishra05/Random-quotes-generator">GITHUB-LINK</a></button>
+          </div>
+
+          <div class="contain">
+          <div class="work">
+            <img src="https://cdn.pixabay.com/photo/2016/08/17/04/43/template-1599667__340.png" alt="">
+            <div class="layer">
+              <h2>Static-Website</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti illum a esse asperiores iusto placeat, voluptate natus cupiditate praesentium unde consequuntur aliquid nostrum quae aliquam eius, odit, numquam repudiandae voluptatem?</p>
+            </div>
+          </div>
+          <button><a href=" https://static-website2-1p85lehup-jyotimishra05.vercel.app/">LIVE-DEMO</a></button>
+          <button><a href="https://github.com/jyotimishra05/static-website2">GITHUB-LINK</a></button>
+          </div>
+          <div class="contain">
+            <div class="work">
+              <img src="https://cdn.pixabay.com/photo/2017/01/22/16/20/candles-2000135__340.jpg" alt="">
+              <div class="layer">
+                <h2>Tribute-Site</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti illum a esse asperiores iusto placeat, voluptate natus cupiditate praesentium unde consequuntur aliquid nostrum quae aliquam eius, odit, numquam repudiandae voluptatem?</p>
+              </div>
+            </div>
+            <button><a href="https://glistening-alfajores-95a269.netlify.app/">LIVE-DEMO</a></button>
+            <button><a href="https://github.com/jyotimishra05/tribute-site">GITHUB-LINK</a></button>
+            </div>
+
+            <div class="contain">
+              <div class="work">
+                <img src="https://cdn.pixabay.com/photo/2016/03/27/21/34/restaurant-1284351__340.jpg" alt="">
+                <div class="layer">
+                  <h2>Restaurant-app</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti illum a esse asperiores iusto placeat, voluptate natus cupiditate praesentium unde consequuntur aliquid nostrum quae aliquam eius, odit, numquam repudiandae voluptatem?</p>
+                </div>
+              </div>
+              <button><a href="https://restaurant-pevcskzn5-jyotimishra05.vercel.app/">LIVE-DEMO</a></button>
+              <button><a href="https://github.com/jyotimishra05/restaurant-app">GITHUB-LINK</a></button>
+              </div>
+
+              <div class="contain">
+                <div class="work">
+                  <img src="https://cdn.pixabay.com/photo/2018/01/26/09/06/personal-3108154__340.jpg" alt="">
+                  <div class="layer">
+                    <h2>Github-User-Data</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti illum a esse asperiores iusto placeat, voluptate natus cupiditate praesentium unde consequuntur aliquid nostrum quae aliquam eius, odit, numquam repudiandae voluptatem?</p>
+                  </div>
+                </div>
+                <button><a href="https://github-user-nine.vercel.app/">LIVE-DEMO</a></button>
+                <button><a href="https://github.com/jyotimishra05/github-user">GITHUB-LINK</a></button>
+                </div>
+
+
+          <div class="contain">
+          <div class="work">
+            <img src="https://media.istockphoto.com/id/1075993466/photo/home-agents-are-using-a-calculator-to-calculate-the-loan-period-each-month-for-the-customer.jpg?b=1&s=170667a&w=0&k=20&c=fjGfDGY0OxhzA3OK5MhZXLmkfzlVVE1DSSBktkhrKvo=" alt="">
+            <div class="layer">
+              <h2>Tip-Calculator</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti illum a esse asperiores iusto placeat, voluptate natus cupiditate praesentium unde consequuntur aliquid nostrum quae aliquam eius, odit, numquam repudiandae voluptatem?</p>
+            </div>
+          </div>
+          <button><a href="https://rainbow-donut-e6ba93.netlify.app/">LIVE-DEMO</a></button>
+          <button><a href="https://github.com/jyotimishra05/tip-calculator">GITHUB-LINK</a></button>
+          </div>
+
+          <div class="contain">
+            <div class="work">
+              <img src="https://cdn.pixabay.com/photo/2020/09/14/17/45/tv-5571609_960_720.jpg" alt="">
+              <div class="layer">
+                <h2>Netflix-clone</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti illum a esse asperiores iusto placeat, voluptate natus cupiditate praesentium unde consequuntur aliquid nostrum quae aliquam eius, odit, numquam repudiandae voluptatem?</p>
+              </div>
+            </div>
+            <button><a href="https://profound-sable-be4fbd.netlify.app/">LIVE-DEMO</a></button>
+            <button><a href="https://github.com/jyotimishra05/netflix-homepage">GITHUB-LINK</a></button>
+            </div>
+
+            <div class="contain">
+              <div class="work">
+                <img src="https://cdn.pixabay.com/photo/2017/07/19/01/41/clouds-2517653__340.jpg" alt="">
+                <div class="layer">
+                  <h2>Parallex-website</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti illum a esse asperiores iusto placeat, voluptate natus cupiditate praesentium unde consequuntur aliquid nostrum quae aliquam eius, odit, numquam repudiandae voluptatem?</p>
+                </div>
+              </div>
+              <button><a href="">LIVE-DEMO</a></button>
+              <button><a href="https://github.com/jyotimishra05/parallax-website">GITHUB-LINK</a></button>
+              </div>
+
+              <div class="contain">
+                <div class="work">
+                  <img src="https://cdn.pixabay.com/photo/2021/10/22/16/17/men-6733008__340.jpg" alt="">
+                  <div class="layer">
+                    <h2>Verify-account</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti illum a esse asperiores iusto placeat, voluptate natus cupiditate praesentium unde consequuntur aliquid nostrum quae aliquam eius, odit, numquam repudiandae voluptatem?</p>
+                  </div>
+                </div>
+                <button><a href="https://joyful-baklava-60d0ca.netlify.app/">LIVE-DEMO</a></button>
+                <button><a href="https://github.com/jyotimishra05/Verify-UI">GITHUB-LINK</a></button>
+                </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="contact">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <h1> Contact Me</h1>
+        <div class="contact-list">
+          <div class="details-left">
+            <div class="left-item">
+              <i class="bi bi-envelope-fill"></i>
+              
+              <h2>Email</h2>
+              <h3>jyotihra28@gmail.com</h3>
+              <a href="">Send a message</a>
+
+            </div>
+            <div class="left-item">
+              <h2>Instagram</h2>
+              <h3>jyotimishra9017</h3>
+              <a href="">Send a message</a>
+            </div>
+            <div class="left-item">
+              <h2>Whatsapp</h2>
+              <h3>6325188947</h3>
+              <a href="">Send a message</a>
+            </div>
+
+          </div>
+          <div class="details-right">
+            <div class="items"> <input type="text" class="text" placeholder="write your name"></div>
+            <div class="items"> <input type="email" class="email" placeholder="write your email"></div>
+            <div class="items">
+              <textarea class="message" placeholder="your message"  cols="30" rows="10"></textarea>
+           </div>
+
+         
+          <div class="items"><button type="submit">Send Message</button></div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="last">
+        <h1>THANK YOU</h1>
+      </div>
+    </div>
+     -->
+     <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i> jyotihra28@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i> 8754229157</p>
+            <div class="social-icons">
+              <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+              <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+              <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+            </div>
+<button><a href="images/JYOTI's Resume (5).pdf" download class="btn">Download CV</a></button>
+          </div>
+          <div class="contact-right">
+            <form action="">
+              <input type="text" name="name" placeholder="Name" required>
+              <input type="email" name="email" placeholder="Email" >
+              <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn"><i class="fa-solid fa-paper-plane"></i>Send Message</button>
+            </form>
+
+            
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright © 2021-2022,Made by <i class="fas fa-heart"></i>jyotimishra05 </p>
+      </div>
+     </div>
+
+
+    <script src="app.js"></script>
+  </body>
+  
+</html>
